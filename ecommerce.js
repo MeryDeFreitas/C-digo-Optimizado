@@ -50,7 +50,6 @@ let carritoSidious = document.getElementById('carritoSidious')
 let carritoVader = document.getElementById('carritoVader')
 let carritoMaul = document.getElementById('carritoMaul')
 
-let carritoFinal = document.getElementById('carritoFinal')
 let mostrarTotal = document.getElementById('mostrarTotal')
 let mostrarTotal2 = document.getElementById('mostrarTotal2')
 
