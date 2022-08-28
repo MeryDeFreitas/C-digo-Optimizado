@@ -1,3 +1,22 @@
+//Cuando cargue la pagina va a poner a andar el temporizador
+window.onload = updateClock;
+
+var totalTime = 240;
+
+function updateClock() {
+
+document.getElementById('countdown').innerHTML = "Tienes " + totalTime + " segundos";
+
+    if(totalTime==0){
+      swal('Tiempo para el  Pago', '¡Lo siento, Se te acabó el tiempo!','error')
+      .then(() => {
+    document.location.reload();  //Va a reiniciar el juego
+    }) }else{
+        totalTime-=1;         //De lo contrario que ande el reloj y reste uno
+        setTimeout("updateClock()",1000);
+}
+}
+
 // Obtener el DOM
 
 const lineaCompra = document.getElementById('Compra')

@@ -15,8 +15,10 @@ button.addEventListener('click', (e) => {
     localStorage.setItem("Contraseña", password);
 
     // Lo que hara la pagina cuando el usuario ingrese datos
-    alert("Bienvenido/a")
+
+        swal('Usuario registrado', 'Procedemos al pago','success')
+        .then(() => {
     window.location.assign('carrito.html')
-    
+        })
     console.log(data)
 })
