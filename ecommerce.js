@@ -56,14 +56,6 @@ let mostrarTotal2 = document.getElementById('mostrarTotal2')
 
 // Declaro variables globales que se usarán en las funciones
 
-let CantidadVendidaQuingon = 0;
-let CantidadVendidaLuke = 0;
-let CantidadVendidaAhsoka = 0;
-
-let CantidadVendidaSidious = 0;
-let CantidadVendidaVader = 0;
-let CantidadVendidaMaul = 0;
-
 let vendido = false;
 
 // Aqui armo el carrito segun lo que escoja el usuario
